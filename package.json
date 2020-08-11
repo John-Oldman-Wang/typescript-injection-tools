@@ -6,6 +6,7 @@
   "scripts": {
     "format": "prettier-tslint fix '**/*.ts'",
     "prettier": "pretty-quick --staged",
+    "tsc": "tsc",
     "test": "nodemon"
   },
   "husky": {
@@ -36,6 +37,7 @@
     "typescript": "^3.9.7"
   },
   "dependencies": {
+    "@types/node": "^14.0.27",
     "injection-js": "^2.3.1",
     "reflect-metadata": "^0.1.13"
   }
