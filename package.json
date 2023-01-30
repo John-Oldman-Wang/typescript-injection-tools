@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "format": "prettier-tslint fix '**/*.ts'",
+    "check": "prettier --write ./src",
+    "format": "prettier --write ./src",
     "prettier": "pretty-quick --staged",
-    "tsc": "tsc",
     "test": "nodemon"
   },
   "husky": {
@@ -27,18 +27,16 @@
   "homepage": "https://github.com/nokisnojok/typescript-injection-tools#readme",
   "devDependencies": {
     "hooks": "^0.3.2",
-    "husky": "^4.2.5",
-    "nodemon": "^2.0.4",
-    "prettier": "^2.0.5",
-    "prettier-tslint": "^0.4.2",
-    "pretty-quick": "^2.0.1",
-    "ts-node": "^8.10.2",
-    "tslint": "^6.1.3",
-    "typescript": "^3.9.7"
+    "husky": "^4.3.8",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.3",
+    "pretty-quick": "^3.1.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
   },
   "dependencies": {
-    "@types/node": "^14.0.27",
-    "injection-js": "^2.3.1",
+    "@types/node": "^18.11.18",
+    "injection-js": "^2.4.0",
     "reflect-metadata": "^0.1.13"
   }
 }
